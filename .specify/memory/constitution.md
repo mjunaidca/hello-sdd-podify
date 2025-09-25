@@ -1,50 +1,81 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+- Version change: 0.0.0 → 1.0.0
+- Modified principles: (template → concrete)
+  - [PRINCIPLE_1_NAME] → Static-First Delivery (No Server Runtime)
+  - [PRINCIPLE_2_NAME] → Standard UI Stack (React 19, Tailwind, shadcn/ui)
+  - [PRINCIPLE_3_NAME] → Performance & Accessibility Gates
+  - [PRINCIPLE_4_NAME] → Simplicity & Static Data Contracts
+  - [PRINCIPLE_5_NAME] → Versioning, CI Gates, and Docs
+- Added sections: Additional Constraints; Development Workflow & Quality Gates
+- Removed sections: none
+- Templates requiring updates:
+  - .specify/templates/plan-template.md → ✅ reviewed (no changes needed; Constitution Check remains applicable)
+  - .specify/templates/spec-template.md → ✅ reviewed (no changes needed)
+  - .specify/templates/tasks-template.md → ✅ reviewed (no changes needed)
+- Deferred TODOs:
+  - RATIFICATION_DATE: Original adoption date unknown
+-->
+
+# hello-a Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Static-First Delivery (No Server Runtime)
+All pages MUST be statically generated and deployed on a static host. Use
+Next.js 15 with App Router and Partial Prerendering configured for fully
+static output; avoid Node.js server runtimes, API routes, or server-only
+dependencies. Dynamic data MUST be fetched client-side from public, cacheable
+endpoints or embedded at build time.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Standard UI Stack (React 19, Tailwind, shadcn/ui)
+UI MUST be built with React 19 and the App Router. Styling MUST use Tailwind
+CSS with design tokens defined in `tailwind.config.*`. Components MUST prefer
+`shadcn/ui` primitives; custom components MUST follow the same accessibility
+and composition patterns. No CSS-in-JS at runtime.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Performance & Accessibility Gates
+The production build MUST meet: Lighthouse Performance ≥ 95, Accessibility ≥ 95,
+Best Practices ≥ 95 on key routes; CLS < 0.1, LCP < 2.5s on median hardware.
+Use `next/image`, font optimization, and route-level code splitting. All UI
+controls MUST have ARIA labels and keyboard navigation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Simplicity & Static Data Contracts
+Prefer flat files (e.g., JSON/MDX) and compile-time data where possible. Public
+data contracts (JSON schemas) MUST be versioned and backward compatible within a
+minor version. Avoid unnecessary abstractions; keep modules small and focused.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Versioning, CI Gates, and Docs
+Follow semantic versioning for the constitution and for public data contracts.
+CI MUST fail if constitution gates are violated. The README MUST include exact
+install, build, and deploy commands; any deviation requires a doc update in the
+same PR.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Additional Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Tech Stack: Next.js 15, React 19, Tailwind CSS, shadcn/ui, TypeScript, pnpm
+- Build: `pnpm install` → `pnpm build` producing a static export suitable for
+  static hosting
+- Routing: App Router; edge-/static-compatible APIs only
+- Assets: Use `next/image` and static `public/` assets with caching headers
+- Internationalization and analytics: opt-in; MUST not introduce server runtime
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow & Quality Gates
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- TypeScript strict mode enabled; ESLint and Prettier configured and passing
+- PRs MUST demonstrate compliance with Performance & Accessibility gates on at
+  least the home route and one representative content route
+- UI components MUST include Storybook or equivalent docs, or inline examples
+  in MDX pages
+- Use pnpm workspaces if multiple packages are introduced
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- Amendments: Propose via PR with rationale and impact; include migration notes
+  if gates change
+- Versioning Policy: MAJOR for breaking changes to principles or removal;
+  MINOR for added/expanded principles; PATCH for non-semantic clarifications
+- Compliance: Reviewers MUST verify gates; CI enforces lint, type check, build,
+  and Lighthouse checks for changed routes
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Original adoption date unknown | **Last Amended**: 2025-09-25
