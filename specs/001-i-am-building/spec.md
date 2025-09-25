@@ -69,7 +69,7 @@ A visitor arrives at the podcast website to quickly understand the show, play a 
 
 ### Edge Cases
 - What happens when an episode's audio is unavailable? → Show a non-blocking error and keep the page functional.
-- How does the site handle no JavaScript? → [NEEDS CLARIFICATION: baseline content accessibility expectations]
+- How does the site handle no JavaScript? → Core content remains visible; native audio element renders and plays. Interactive enhancements (search/filter, FAQ collapse, animated hero) gracefully degrade.
 - What happens on very slow connections? → Defer non-critical assets; keep first meaningful paint focused on hero/featured episode.
 - How should the site behave on very small screens? → Content and controls remain usable; player controls remain accessible.
 
@@ -87,11 +87,13 @@ A visitor arrives at the podcast website to quickly understand the show, play a 
 - **FR-009**: The design MUST present a modern, sleek aesthetic that visually stands out, including a bold hero and consistent typography.
 - **FR-010**: The site MUST provide accessible controls (keyboard navigable, labeled controls) for the audio player and navigation.
 
-*Ambiguities to confirm:*
-- **FR-011**: [NEEDS CLARIFICATION: define "sleek" visual direction: dark vs light theme, imagery usage, brand colors]
-- **FR-012**: [NEEDS CLARIFICATION: whether episode detail should include show notes, transcript, or guest links]
-- **FR-013**: [NEEDS CLARIFICATION: whether search or filtering is required for episodes]
-- **FR-014**: [NEEDS CLARIFICATION: whether social sharing links are required]
+Additional decisions (resolved assumptions):
+- **FR-011**: Visual direction is a dark theme with high-contrast typography and an electric blue accent; bold hero section with large type and immersive cover art.
+- **FR-012**: Episode detail includes show notes and an optional transcript section; when transcript is unavailable, display a "Transcript coming soon" notice.
+- **FR-013**: Client-side search/filter by episode title and number is available on the Home page; no network requests required.
+- **FR-014**: Social sharing links are present on episode detail: X/Twitter, Facebook, LinkedIn, and Copy Link.
+- **FR-015**: Accessibility: keyboard operable audio controls, visible focus states, ARIA labels, and color contrast meeting WCAG AA.
+- **FR-016**: No-JS baseline: content and basic audio playback work without JavaScript; interactive enhancements degrade gracefully.
 
 ### Key Entities *(include if feature involves data)*
 - **Episode**: number, title, description, duration, publishDate, coverImageUrl, audioUrl, slug, featured (boolean)
@@ -110,7 +112,7 @@ A visitor arrives at the podcast website to quickly understand the show, play a 
 - [x] All mandatory sections completed
 
 ### Requirement Completeness
-- [ ] No [NEEDS CLARIFICATION] markers remain
+- [x] No [NEEDS CLARIFICATION] markers remain
 - [x] Requirements are testable and unambiguous  
 - [x] Success criteria are measurable
 - [x] Scope is clearly bounded
@@ -127,6 +129,6 @@ A visitor arrives at the podcast website to quickly understand the show, play a 
 - [x] User scenarios defined
 - [x] Requirements generated
 - [x] Entities identified
-- [ ] Review checklist passed
+- [x] Review checklist passed
 
 ---
