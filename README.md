@@ -1,4 +1,6 @@
-# Hello A Podcast
+# Hello Podcast
+
+> **This is an implementation of [Spec Driven Development Methadology Documentated here](https://github.com/panaversity/learn-agentic-ai/tree/main/06_prompt_driven_development/05_spec_driven_development). Think of it as a hello world to start using SDD.**
 
 A modern, standout podcast website built with Next.js 15, React 19, Tailwind CSS, and shadcn/ui. Features a sleek dark theme, static-first architecture, and accessibility-focused design.
 
