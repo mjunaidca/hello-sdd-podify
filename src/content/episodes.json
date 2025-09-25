@@ -1,0 +1,222 @@
+[
+    {
+        "number": 1,
+        "title": "Welcome to Hello A: The Beginning",
+        "description": "In our inaugural episode, we dive deep into the world of modern web development, exploring the latest trends, tools, and techniques that are shaping the future of digital experiences. Join us as we discuss React 19, Next.js 15, and the evolving landscape of web technologies.",
+        "duration": "45:23",
+        "publishDate": "2024-01-15",
+        "coverImageUrl": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-1.mp3",
+        "slug": "welcome-to-hello-a-the-beginning",
+        "featured": true
+    },
+    {
+        "number": 2,
+        "title": "The Art of Static Site Generation",
+        "description": "Static site generation has revolutionized how we build fast, scalable websites. In this episode, we explore the benefits of static-first architecture, compare different approaches, and share best practices for building performant web applications.",
+        "duration": "38:45",
+        "publishDate": "2024-01-22",
+        "coverImageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-2.mp3",
+        "slug": "the-art-of-static-site-generation",
+        "featured": false
+    },
+    {
+        "number": 3,
+        "title": "Accessibility First: Building Inclusive Web Experiences",
+        "description": "Accessibility isn't just a nice-to-have—it's essential. We discuss WCAG guidelines, practical implementation strategies, and how to create web experiences that work for everyone, regardless of their abilities or the devices they use.",
+        "duration": "52:17",
+        "publishDate": "2024-01-29",
+        "coverImageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-3.mp3",
+        "slug": "accessibility-first-building-inclusive-web-experiences",
+        "featured": false
+    },
+    {
+        "number": 4,
+        "title": "Performance Optimization in Modern Web Apps",
+        "description": "Speed matters. In this episode, we break down performance optimization techniques, from code splitting and lazy loading to image optimization and caching strategies. Learn how to make your web apps blazingly fast.",
+        "duration": "41:32",
+        "publishDate": "2024-02-05",
+        "coverImageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-4.mp3",
+        "slug": "performance-optimization-in-modern-web-apps",
+        "featured": false
+    },
+    {
+        "number": 5,
+        "title": "The Future of CSS: Beyond Tailwind",
+        "description": "While Tailwind CSS has transformed how we write styles, the CSS landscape continues to evolve. We explore CSS Container Queries, CSS Grid Level 2, and other emerging features that will shape the future of web design.",
+        "duration": "47:18",
+        "publishDate": "2024-02-12",
+        "coverImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-5.mp3",
+        "slug": "the-future-of-css-beyond-tailwind",
+        "featured": false
+    },
+    {
+        "number": 6,
+        "title": "State Management Without the Boilerplate",
+        "description": "State management doesn't have to be complex. We explore modern approaches to managing application state, from React's built-in hooks to lightweight state machines, and discuss when each approach makes sense.",
+        "duration": "43:29",
+        "publishDate": "2024-02-19",
+        "coverImageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-6.mp3",
+        "slug": "state-management-without-the-boilerplate",
+        "featured": false
+    },
+    {
+        "number": 7,
+        "title": "Testing Strategies for Modern React Apps",
+        "description": "Testing is crucial for maintainable applications. We discuss different testing strategies, from unit tests for components to integration tests for user flows, and share practical tips for testing React applications effectively.",
+        "duration": "49:14",
+        "publishDate": "2024-02-26",
+        "coverImageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-7.mp3",
+        "slug": "testing-strategies-for-modern-react-apps",
+        "featured": false
+    },
+    {
+        "number": 8,
+        "title": "Building Scalable Component Systems",
+        "description": "Component systems are the foundation of great design systems. We explore how to build scalable, reusable components that can grow with your application while maintaining consistency and developer experience.",
+        "duration": "44:56",
+        "publishDate": "2024-03-05",
+        "coverImageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-8.mp3",
+        "slug": "building-scalable-component-systems",
+        "featured": false
+    },
+    {
+        "number": 9,
+        "title": "The Rise of Edge Computing",
+        "description": "Edge computing is changing how we think about web architecture. We discuss the benefits of edge functions, when to use them, and how they fit into the static-first approach to web development.",
+        "duration": "46:33",
+        "publishDate": "2024-03-12",
+        "coverImageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-9.mp3",
+        "slug": "the-rise-of-edge-computing",
+        "featured": false
+    },
+    {
+        "number": 10,
+        "title": "Designing for Dark Mode",
+        "description": "Dark mode has become a standard feature. We explore the design principles behind effective dark mode implementations, accessibility considerations, and how to create cohesive experiences across light and dark themes.",
+        "duration": "42:47",
+        "publishDate": "2024-03-19",
+        "coverImageUrl": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-10.mp3",
+        "slug": "designing-for-dark-mode",
+        "featured": false
+    },
+    {
+        "number": 11,
+        "title": "Micro-Interactions That Delight",
+        "description": "Small details can make a big difference. We discuss micro-interactions—subtle animations and feedback that enhance user experience without being distracting—and how to implement them effectively.",
+        "duration": "39:52",
+        "publishDate": "2024-03-26",
+        "coverImageUrl": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-11.mp3",
+        "slug": "micro-interactions-that-delight",
+        "featured": false
+    },
+    {
+        "number": 12,
+        "title": "API Design for Frontend Developers",
+        "description": "Good API design makes development easier. We explore principles for designing APIs that are intuitive for frontend developers, including RESTful patterns, error handling, and documentation strategies.",
+        "duration": "48:21",
+        "publishDate": "2024-04-02",
+        "coverImageUrl": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-12.mp3",
+        "slug": "api-design-for-frontend-developers",
+        "featured": false
+    },
+    {
+        "number": 13,
+        "title": "The Psychology of User Experience",
+        "description": "Understanding user psychology helps us build better interfaces. We discuss cognitive load, decision fatigue, and other psychological principles that influence how users interact with our applications.",
+        "duration": "51:08",
+        "publishDate": "2024-04-09",
+        "coverImageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-13.mp3",
+        "slug": "the-psychology-of-user-experience",
+        "featured": false
+    },
+    {
+        "number": 14,
+        "title": "Building Offline-First Applications",
+        "description": "The web doesn't stop when connectivity does. We explore strategies for building applications that work offline, including service workers, caching strategies, and progressive enhancement techniques.",
+        "duration": "45:37",
+        "publishDate": "2024-04-16",
+        "coverImageUrl": "https://images.unsplash.com/photo-1486312338219-ce68e2c6b7c9?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-14.mp3",
+        "slug": "building-offline-first-applications",
+        "featured": false
+    },
+    {
+        "number": 15,
+        "title": "The Evolution of JavaScript Frameworks",
+        "description": "JavaScript frameworks have come a long way. We trace the evolution from jQuery to modern frameworks, discussing what we've learned and where we're headed in the framework landscape.",
+        "duration": "53:42",
+        "publishDate": "2024-04-23",
+        "coverImageUrl": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-15.mp3",
+        "slug": "the-evolution-of-javascript-frameworks",
+        "featured": false
+    },
+    {
+        "number": 16,
+        "title": "Security Best Practices for Web Developers",
+        "description": "Security is everyone's responsibility. We discuss common web security vulnerabilities, prevention strategies, and best practices for keeping your applications and users safe.",
+        "duration": "47:55",
+        "publishDate": "2024-04-30",
+        "coverImageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-16.mp3",
+        "slug": "security-best-practices-for-web-developers",
+        "featured": false
+    },
+    {
+        "number": 17,
+        "title": "The Business of Open Source",
+        "description": "Open source powers much of the web. We explore the business models behind successful open source projects, the challenges maintainers face, and how to contribute meaningfully to the ecosystem.",
+        "duration": "44:18",
+        "publishDate": "2024-05-07",
+        "coverImageUrl": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-17.mp3",
+        "slug": "the-business-of-open-source",
+        "featured": false
+    },
+    {
+        "number": 18,
+        "title": "Mobile-First Design in 2024",
+        "description": "Mobile usage continues to grow. We discuss mobile-first design principles, responsive design techniques, and how to create experiences that work beautifully across all device sizes.",
+        "duration": "41:26",
+        "publishDate": "2024-05-14",
+        "coverImageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-18.mp3",
+        "slug": "mobile-first-design-in-2024",
+        "featured": false
+    },
+    {
+        "number": 19,
+        "title": "The Future of Web Development",
+        "description": "What lies ahead for web development? We gaze into our crystal ball to discuss emerging technologies, paradigm shifts, and trends that will shape how we build for the web in the coming years.",
+        "duration": "56:14",
+        "publishDate": "2024-05-21",
+        "coverImageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-19.mp3",
+        "slug": "the-future-of-web-development",
+        "featured": false
+    },
+    {
+        "number": 20,
+        "title": "Building for the Long Term",
+        "description": "Sustainable development practices ensure our applications stand the test of time. We discuss technical debt management, documentation strategies, and creating maintainable codebases that teams can work with for years.",
+        "duration": "49:33",
+        "publishDate": "2024-05-28",
+        "coverImageUrl": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=400&fit=crop&crop=center",
+        "audioUrl": "https://example.com/episodes/episode-20.mp3",
+        "slug": "building-for-the-long-term",
+        "featured": false
+    }
+]

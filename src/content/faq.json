@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is Hello A Podcast about?",
+        "answer": "Hello A is a podcast dedicated to modern web development, focusing on cutting-edge technologies, best practices, and the evolving landscape of web applications. We cover everything from React and Next.js to performance optimization, accessibility, and emerging trends.",
+        "category": "General",
+        "order": 1
+    },
+    {
+        "question": "How often are new episodes released?",
+        "answer": "We release new episodes every Monday, with occasional bonus episodes or special content throughout the month. You can subscribe to our podcast on your favorite platform to get notified when new episodes are available.",
+        "category": "Content",
+        "order": 2
+    },
+    {
+        "question": "Can I suggest topics for future episodes?",
+        "answer": "Absolutely! We love hearing from our listeners. You can suggest topics through our contact form, social media channels, or by leaving a review on your podcast platform. We regularly incorporate listener suggestions into our episode planning.",
+        "category": "Community",
+        "order": 3
+    },
+    {
+        "question": "Is there a transcript available for episodes?",
+        "answer": "Yes, we provide transcripts for all episodes to make our content more accessible. Transcripts are available on each episode's detail page and are also included in the show notes when available on podcast platforms.",
+        "category": "Accessibility",
+        "order": 4
+    },
+    {
+        "question": "How can I support the podcast?",
+        "answer": "There are several ways to support Hello A: subscribe and leave reviews on your podcast platform, share episodes with friends and colleagues, follow us on social media, or consider supporting us through our Patreon if we launch one in the future. Your engagement means everything to us!",
+        "category": "Support",
+        "order": 5
+    },
+    {
+        "question": "Do you accept guest appearances or sponsorships?",
+        "answer": "We're always interested in featuring guests with unique perspectives on web development. For sponsorships, we carefully select partners whose products and services align with our values and would be genuinely useful to our developer audience. Please reach out through our contact page for inquiries.",
+        "category": "Business",
+        "order": 6
+    },
+    {
+        "question": "Can I download episodes for offline listening?",
+        "answer": "Yes! All episodes are available for download on major podcast platforms. You can also find download links on each episode's detail page on our website. This is especially useful for long commutes or when you're in areas with limited connectivity.",
+        "category": "Content",
+        "order": 7
+    },
+    {
+        "question": "How can I stay updated with the latest news and announcements?",
+        "answer": "The best way to stay updated is to subscribe to our podcast on your preferred platform and follow us on social media. We also occasionally send newsletters with episode highlights and exclusive content. You can sign up for our newsletter on our website.",
+        "category": "Community",
+        "order": 8
+    }
+]
